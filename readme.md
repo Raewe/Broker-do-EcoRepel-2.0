@@ -1,4 +1,6 @@
-# Server para o ecorevel
+# Para que server
+
+## Link
 
 # TODO
 
@@ -6,9 +8,8 @@ Ligar ao banco de dados (sqlite), manda mensagem e pegar dinâmicamente
 Melhorar a segurança com criptografia
 Mandar uma mensagem para o celular
 
-# todo (melhorar a segurança)
+## melhorar a segurança
 
-Melhora minha segurança:
 Autenticação: Use um arquivo de senhas para exigir nome de usuário e senha para conexões.
 Criptografia (TLS): Habilite TLS para garantir a criptografia das comunicações.
 Firewall: Limite o acesso às portas do broker apenas para dispositivos confiáveis.
