@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        /* Linguagem e ambiente */
+        "target": "ESNext", // Usa os recursos mais recentes do JavaScript (confira se seu Node suporta ESNext)
+        "lib": ["ESNext"], // Inclui as APIs mais recentes do ECMAScript
+        "module": "NodeNext", // Configuração para ES Modules no Node.js
+        "moduleResolution": "nodenext", // Resolução de módulos seguindo as convenções do Node.js
+
+        /* Diretórios de entrada e saída */
+        "rootDir": "./src", // Define 'src' como diretório raiz dos arquivos fonte
+        "outDir": "./dist", // Define 'dist' como diretório de saída dos arquivos compilados
+        /* Verificações e compatibilidade */
+        "esModuleInterop": true, // Permite importação de módulos CommonJS
+        "strict": true, // Ativa todas as verificações estritas de tipo
+        "skipLibCheck": true, // Ignora checagem de tipos em arquivos de declaração (.d.ts)
+
+        /* Otimização e geração de código */
+        "removeComments": true, // Remove comentários do código emitido (código mais limpo e menor)
+        "rewriteRelativeImportExtensions": true, // Reescreve extensões de arquivos relativos para .js nos imports emitidos
+        "incremental": true // Ativa compilação incremental para builds mais rápidos
+    },
+    "include": [
+        "src/**/*" // Inclui todos os arquivos dentro de 'src'
+    ]
+}
